@@ -45,7 +45,7 @@ public class Ex12_Study {
 		long answer = 0;
 	
 		for (long a=1; a<=n; a++) {
-	          if (n == a*a) {
+	          if (n==a*a) {
 	              answer = (a+1) * (a+1);
 	              break;
 	          }
