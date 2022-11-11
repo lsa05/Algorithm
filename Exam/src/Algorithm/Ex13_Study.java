@@ -1,5 +1,5 @@
 package Algorithm;
-
+//하샤드 수 판별하기
 import java.util.Scanner;
 
 public class Ex13_Study {
@@ -19,7 +19,7 @@ public class Ex13_Study {
 	     
 	     //하샤드 수 판별하기
 	     if(x%sum==0) {
-	     	answer = true;
+	     	answer = true; //return answer;
 	     	
 	     }else {
 	     	answer = false;
@@ -27,12 +27,10 @@ public class Ex13_Study {
 		 System.out.println(answer);
 	}
 } 
-//     x % sum==0 ? true :fals;   
+//     x % sum==0 ? true :false;   
 	 
 	
-	 
-//	 
-//	 // 성공
+	//프로그래머스 - 삼항연산자
 //	 class Solution {
 //		    public boolean solution(int x) {
 //		        int num=x;
@@ -52,7 +50,7 @@ public class Ex13_Study {
 	 
 	 
 	 
-	 
+	 //프로그래머스 - if문
 //	 class Solution {
 //		    public boolean solution(int x) {
 //		        int num=x;
@@ -76,3 +74,21 @@ public class Ex13_Study {
 //	}
 //	 
 	 
+
+
+//class Solution {
+//    public boolean solution(int x) {
+//        boolean answer = true;
+//        int sum=0;
+//        
+//        String tmp=""+x;
+//        String[] str=tmp.split("");
+//        for(String s: str){
+//            sum+=Integer.parseInt(s);
+//        }
+//        
+//        if(x%sum!=0) answer=false; 
+//        
+//        return answer;
+//    }
+//}
