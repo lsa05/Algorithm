@@ -50,6 +50,31 @@ public class Ex15_Study {
 
 }
 
+
+/*  //더 간단한 풀이
+class Solution {
+    public int solution(long num) {
+       int answer = 0;
+
+        while(num != 1){
+            answer++;
+            if(answer==500)
+                return -1;
+            if(num%2==0){
+                num/=2;
+            }else{
+                num=num*3+1;
+            }
+        }
+        return answer;
+    }
+}
+
+*/
+
+
+
+
 /*  //do-while문 시도 -> 실패
  * 
   class Solution {
